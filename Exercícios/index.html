@@ -4,11 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Cinema</title>
+    <!-- // Css Interno
+    <style> 
+       #p2{
+            font-size: 20px;
+        }
+        .center{
+           text-align: center;
+        }
+    </style>-->
+    <title> Disney</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-    <ul>
+    <ul id="menu">
         <!-- <li>
             
                //href - direciona o site para outro link,
@@ -26,26 +36,37 @@
         </li>
     </ul>
 
-    <h1>Filme</h1> <!-- Só pode ter um Título-->
+    <h1 class="center">Cinderela</h1> 
+    <div class="container">
+      
+        <div class="p-30">
+           
+            <p class="justfy"> <!-- <p style="font-size: 20px;"> <- CSS Inline-->
+                Esta versão do clássico conto de fadas conta a história do sonho que se torna realidade por meio de 
+                inesquecíveis canções e personagens encantadores como ratinhos, a madrasta e a fada madrinha.
+            </p>
+            <p class="justfy"> 
+                Cinderela era filha de um comerciante rico. Depois que seu pai morreu, sua madrasta tomou conta da casa que
+                era de Cinderela. Cinderela então, passou a viver com sua madrasta malvada, junto de suas duas filhas que
+                tinham inveja da beleza de Cinderela e transformaram-na em uma serviçal.
+
+            </p>
+        </div>
     
-    <h2>Cinderela</h2>
-    <p>
-        Esta versão do clássico conto de fadas conta a história do sonho que se torna realidade por meio de 
-        inesquecíveis canções e personagens encantadores como ratinhos, a madrasta e a fada madrinha.
-    </p>
-    <p>
-        Cinderela era filha de um comerciante rico. Depois que seu pai morreu, sua madrasta tomou conta da casa que
-        era de Cinderela. Cinderela então, passou a viver com sua madrasta malvada, junto de suas duas filhas que
-        tinham inveja da beleza de Cinderela e transformaram-na em uma serviçal.
+        <div>
+            <img class ="br-50 wh-300 p-30"  src="https://pm1.narvii.com/6282/b710529142f96e947a9b40d4619e05d69c61382c_hq.jpg">
+           <!--<img src="assets/img/Foto Cinderela.PNG" alt="Foto da Cinderela"> -->
+        </div>
+    </div>
 
-    </p>
-
-    <img src="https://3.bp.blogspot.com/-Q1RsC4Z5Vgg/ThDWiq1wkPI/AAAAAAAABjs/tlvEeU0nZrE/s1600/mai02PIX03.jpg" alt="Foto da Cinderela">
-    <ima src="assets/img/Foto Cinderela.PNG">
+    
 
         <br>
-    <!-- iframe - é um pedaço de site dentro do nosso site-->
-    
+
+    <h2 class="center">Sonhar é Desejar</h2>
+
+    <div class="center mb-50">
+    <!-- iframe - é um pedaço de site dentro do nosso site-->    
     <iframe 
     width="560" 
     height="315" 
@@ -55,6 +76,28 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen
     ></iframe>
+</div>
 
+<hr> <!--Separa -->
+
+<footer>
+
+    
+    <div class="container">
+        <a href="https://www.linkedin.com/in/giulia-potenza/" target="_bank"> <!-- target ="_bank" é usado para abrir a pagina em outra guia-->
+        <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+        </a>
+        <a href="https://github.com/Gifaela"target="_bank">
+        <img class="tm-social p-30" src="assets/img/github.png" alt="Logo do GitHub">
+        </a>
+        <a href="https://www.instagram.com/heey_giulia/"target="_bank">
+        <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Intagram">
+        </a>
+    </div>
+    <p class="center">  
+        Todos os direitos reservados: Giulia Potenza &copy
+    </p>
+  
+</footer>
 </body>
 </html>
