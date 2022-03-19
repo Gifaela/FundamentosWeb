@@ -32,21 +32,20 @@
     color: rgb(163, 213, 228);
 }
 
-.p-30 {
-    padding: 30px;
+.p-30 { 
+    padding: 30px;/* espaçamento dentro do elemento(em volta de todo o elemento)*/
 }
-
 
 .br-50{
-    border-radius: 50%;
+    border-radius: 50%; /* deixa a imagem redonda*/
 }
-.wh-300{
+.wh-300{ /*Tamanho da imagem*/
     width: 300px;
     height: 300px;
 }
 .tm-social{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 .mb-50{
     margin-bottom: 50px;
